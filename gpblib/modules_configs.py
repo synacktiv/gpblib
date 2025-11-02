@@ -1,0 +1,43 @@
+from gpblib.ScheduledTasks import ScheduledTasks
+from gpblib.Files import Files
+from gpblib.Groups import Groups
+from gpblib.Registry import Registry
+from gpblib.Folders import Folders
+
+MODULES_CONFIG = {
+    "Scheduled Tasks": {
+        "class": ScheduledTasks,
+        "setting_type": "Preferences",
+        "cse_guid": "AADCED64-746C-4633-A97C-D61349046527",
+        "admin_guid": "CAB54552-DEEA-4691-817E-ED4A4D1AFC72",
+        "gpt_path": "Preferences\ScheduledTasks\ScheduledTasks.xml",
+    },
+    "Files": {
+        "class": Files,
+        "setting_type": "Preferences",
+        "cse_guid": "7150F9BF-48AD-4DA4-A49C-29EF4A8369BA",
+        "admin_guid": "3BAE7E51-E3F4-41D0-853D-9BB9FD47605F",
+        "gpt_path": "Preferences\Files\Files.xml",
+    },
+    "Groups": {
+        "class": Groups,
+        "setting_type": "Preferences",
+        "cse_guid": "17D89FEC-5C44-4972-B12D-241CAEF74509",
+        "admin_guid": "79F92669-4224-476C-9C5C-6EFB4D87DF4A",
+        "gpt_path": "Preferences\Groups\Groups.xml",
+    },
+    "Registry": {
+        "class": Registry,
+        "setting_type": "Preferences",
+        "cse_guid": "B087BE9D-ED37-454F-AF9C-04291E351182",
+        "admin_guid": "BEE07A6A-EC9F-4659-B8C9-0B1937907C83",
+        "gpt_path": "Preferences\Registry\Registry.xml",
+    },
+    "Folders": {
+        "class": Folders,
+        "setting_type": "Preferences",
+        "cse_guid": "6232C319-91AC-4931-9385-E70C2B099F0E",
+        "admin_guid": "3EC4E9D3-714D-471F-88DC-4DD4471AAB47",
+        "gpt_path": "Preferences\Folders\Folders.xml",
+    }
+}
